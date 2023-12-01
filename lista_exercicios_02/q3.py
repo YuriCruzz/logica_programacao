@@ -1,10 +1,10 @@
 # Definição Variavis:
-energia = int(input('Informe a quantidade de energia gasta (kWh): '))
 print('''Informe o tipo de usuario pela sigla;
 Residencial (R)
 Comercial (C)
 Industrial (I)''')
 tipo = (input('Sua resposta: '))
+energia = int(input('Informe a quantidade de energia gasta (kWh): '))
 
 # Definição Codigos:
 match tipo:
